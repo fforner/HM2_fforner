@@ -6,7 +6,7 @@ import re
 html_doc = """http://18.206.38.144:8000/random_company"""
 
 
-def webscraper (html_link):
+def webscraper(html_link):
     '''HTML scraper. Analysis of the html web text. Extrapolation of "Name" and "Purpose"
         of the company. it also remove a part of the string to make all the process readle.
         Aim :  get informations from a html text'''
@@ -28,3 +28,7 @@ for i in range(0, 50):
 print(Data_final)
 
 # Data_final.to_csv('HTML_Scapper_FForner.csv')
+
+if __name__ == "__main__":
+    pass
+    
