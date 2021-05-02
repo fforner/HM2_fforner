@@ -27,8 +27,5 @@ for i in range(0, 50):
 
 print(Data_final)
 
-# Data_final.to_csv('HTML_Scapper_FForner.csv')
+Data_final.to_csv('HTML_Scapper_FForner.csv')
 
-if __name__ == "__main__":
-    pass
-    
